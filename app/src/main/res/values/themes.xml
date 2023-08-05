@@ -3,6 +3,15 @@
     <style name="Base.Theme.IslamiAppC38GSat" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorGold</item>
+        <item name="colorPrimaryVariant">@color/colorGoldDark</item>
+
+
+    </style>
+
+    <style name="bottomNavigationStyle">
+        <item name="android:background">@color/colorGold</item>
+        <item name="iconSize">24dp</item>
     </style>
 
     <style name="Theme.IslamiAppC38GSat" parent="Base.Theme.IslamiAppC38GSat" />

@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     // 2- Hardware Failures -> Project X
     // 3- Team Work ->
     // Repository ->
+    // Code Reviewer ->
 
     lateinit var profileTextView: TextView
     lateinit var settingsTextView: TextView

@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#912AA3</color>
     <color name="developer_1_my_fancy_color">#FFFFFF</color>
+    <color name="added_special_colors">#000000</color>
 </resources>

@@ -2,18 +2,17 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/home_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
     tools:context=".islamiProject.SuraDetailsActivity">
 
     <TextView
         android:id="@+id/sura_title_text"
+        style="@style/textStyle1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:textColor="@color/black"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,6 +20,7 @@
 
     <ImageView
         android:id="@+id/back_icon"
+        style="@style/backIconStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
@@ -32,9 +32,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/verses_recycler_view"
+        style="@style/versesBackground"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/sura_details_bg"
         android:orientation="vertical"
         android:padding="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"

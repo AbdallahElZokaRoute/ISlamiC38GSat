@@ -7,4 +7,6 @@
     <color name="developer2_my_fancy_color">#000000</color>
     <color name="colorGold">#B7935F</color>
     <color name="colorGoldDark">#A1855B</color>
+    <color name="colorDarkBlue">#141A2E</color>
+    <color name="colorYellow">#FACC1D</color>
 </resources>

@@ -1,6 +1,8 @@
 package com.route.islamiappc38gsat.islamiProject.data
 
 object Constants {
+    val ISLAMI_SHARED_PREFERENCE = "Islami_mode"
+    val ISLAMI_MODE_KEY: String = "isalmi_mode_key"
     var arSuras = listOf<String>(
         "الفاتحه",
         "البقرة",
